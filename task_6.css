@@ -1,0 +1,561 @@
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    height: 2000px;
+}
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #444;
+    /* padding: 10px; */
+    position: relative;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+nav div{
+    transition: 0.5s all;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+nav div:hover{
+    width: 60px;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.23);
+    display: flex;
+    justify-content: center;
+    transition: 0.5s all;
+}
+nav img {
+    height: 90%;
+}
+.b {
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    right: 320px;
+    /* top: 2px; */
+    /* border:1px solid white; */
+    color: white;
+    background-color: #444;
+    border-style: none;
+    cursor: pointer;
+    font-family: "Cairo", sans-serif;
+    transition: 0.5s all;
+    font-size: 19px;
+}
+
+.b:hover {
+    background-color: rgba(255, 255, 255, 0.23);
+}
+i {
+    cursor: pointer;
+}
+.b1 {
+    width: 100px;
+    height: 80%;
+    position: absolute;
+    right: 1230px;
+    top: 2px;
+    border: 1px solid white;
+    color: white;
+    background-color: #444;
+    cursor: pointer;
+    font-family: "Cairo", sans-serif;
+    transition: 0.5s all;
+}
+.b1:hover {
+    background-color: rgba(255, 255, 255, 0.23);
+}
+.b1 p {
+    font-weight: 500;
+    display: inline;
+    font-size: 18 px;
+    }
+    .b2 {
+    width: 120px;
+    height: 80%;
+    position: absolute;
+    right: 1340px;
+    top: 2px;
+    border: 1px solid white;
+    color: white;
+    background-color: #444;
+    cursor: pointer;
+    font-family: "Cairo", sans-serif;
+    transition: 0.5s all;
+}
+.b2:hover {
+    background-color: rgba(255, 255, 255, 0.23);
+}
+.b2 p {
+    font-weight: 500;
+    display: inline;
+    font-size: 18px;
+}
+header {
+    /* text-align: center; */
+    width: 100%;
+    height: 730px;
+    background-position: center;
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+}
+header h1 {
+    font-size: 46px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+    }
+header h2 {
+    font-size: 26px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 200;
+}
+header div {
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+}
+header form input {
+    width: 700px;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    border: none;
+}
+header form input:focus {
+    border: none;
+    outline: none ;
+}
+header div button {
+    width: 100px;
+    height: 100%;
+    border-color: #52b035;
+    background-color: #52b035;
+    color: white;
+    font-size: 19px;
+    font-family: "Cairo", sans-serif;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+header div button:hover {
+    background-color: green;
+}
+.section-1 {
+    width: 100%;
+    height: 680px;
+    margin-top: 100px;
+    background-color: transparent;
+    text-align: center;
+    /* background-color: #444; */
+}
+.section-1 h2 {
+    margin-top: 10px;
+    font-size: 26px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 200;
+}
+.div {
+    display: flex;
+    height: 220px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.divv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.divv img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.divv h3 {
+    color: white;
+    font-size: 26px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+}
+.section-2{
+    width: 100%;
+    height: 700px;
+    background-color:#f1f1f1 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 h1{
+    font-size: 26px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.section-2-son{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.section-2-son div{
+    padding: 10px;
+    width: 380px;
+    height: 150px;
+    background-color: white;
+    margin-top: 80px;    
+    position: relative;
+}
+.section-2-son img{
+    width: 40px;
+    height: 40px;
+}
+.section-2-son div h3 {
+    position: absolute;
+    top: -10px;
+    right: 60px;
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+}
+.section-2-son div p {
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    line-height: 30px;
+    font-size: 16;
+    font-family: 'Cairo', sans-serif
+}
+.section-2-son div span{
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #52b035;
+    text-align: center;
+    line-height: 44px;
+    font-size: 25px;
+    color: #f1f1f1;
+    font-family: 'Cairo', sans-serif ;
+    position: absolute;
+    bottom: -22px;
+    left: 20px;
+}
+.section-3{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 120px;
+}
+.section-3 a{
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif ;
+    color: black;
+    margin-right: 20px;
+}
+.section-3 h2{
+    display: inline-block;
+}
+.section-3 a button{
+    width: 150px;
+    height: 80%;
+    border: 1px solid #52b035;
+    color: #52b035;
+    background-color: rgb(255, 253, 253);
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Cairo", sans-serif;
+    transition: 0.5s all;
+    margin-left: 20px;
+}
+.section-3 a button:hover{
+    color: white;
+    background-color: #52b035;
+}
+article{
+    width: 100%;
+    /* height: 600px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Cairo", sans-serif ;
+    /* background-color: #52b035; */
+}
+article div{
+    line-height: 1.1;
+    position: relative;
+    /* background-color: #52b035; */
+    width: 22%;
+}
+article a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+article a:hover{
+    color: #52b035;
+}
+article div p {
+    word-spacing: 3px;
+}
+article img{
+    width: 100%;
+}
+.min-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px; 
+    top: 38%;
+    
+}
+.a{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.a:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+article span{
+    color: rgba(0, 0, 0, 0.5);
+}
+.section-4{
+    width: 100%;
+    height: 700px;
+    margin-top: 150px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cairo", sans-serif ;
+}
+.section-4 h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+.section-4 summary{
+    padding: 4px;
+    width: 1000px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-size: 22px;
+    color :black;
+    transition: 0.5s all;
+}
+.section-4 summary:focus{
+    color:#52b035;
+}
+.section-4 p{
+    width: 1000px ;
+    font-size: 19px;
+}
+.article{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    /* background-color: #52b035; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.article div{
+    width:300px;
+    margin-top: 30px;
+    line-height: 1.7;
+    /* background-color: antiquewhite; */
+}
+.article p{
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: -3px;
+    color: #228b02;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-1{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-1 h1{
+    color: aliceblue;
+    font-family: "Cairo", sans-serif ;
+    font-weight: 100;
+
+
+}
+.footer-1  button {
+    width: 150px;
+    height: 80px;
+    border-color: #52b035;
+    background-color: #52b035;
+    color: white;
+    font-size: 19px;
+    font-family: "Cairo", sans-serif;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.footer-1  button:hover {
+    background-color: rgb(4, 127, 4);
+    border-color: rgb(4, 127, 4); 
+}
+.footer-2{
+    width: 100%;
+    max-height: 500px;
+    margin-top: 150px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+
+}
+.div1{
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+    /* background-color: #52b035; */
+    position: relative;
+}
+.link{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    font-size: 18px;
+    font-family:"Cairo", sans-serif; 
+}
+.div1 p{
+    /* color: #52b035 ; */
+    display: inline;
+    position: absolute;
+    top: 20px;
+    left:  0px;
+    direction: ltr;
+    
+}
+.cover{
+    background-color: #fff;
+    overflow: hidden;
+}
+.cover img{
+    width: 160px;
+    display: block;
+    margin-right: 700px;
+    margin-top: 60px;
+    /* background-color: red */
+}
+.links{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    background-color: #52b035;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.links div{
+    background-color: #444;
+    height: 200px;
+    width: 100%;
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 12px;
+}
+.links p{
+    font-size:11px ;
+    color: #f1f1f1;
+}
+.last{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    /* background-color: #52b035; */
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.5;
+}
+.last h2{
+    color: black;
+    font-size: 18px;
+    font-family:"Cairo", sans-serif;
+    font-weight: 100;
+}
+.last p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+.last div{
+    /* background-color: #444; */
+    height: 100%;
+    width: 200px;
+}
+.last2{
+    width: 650px;
+    height: 80px;
+    margin-right:120px ;
+    /* background-color: #52b035; */
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.5;
+}
+.last2 h2{
+    color: black;
+    font-size: 18px;
+    font-family:"Cairo", sans-serif;
+    font-weight: 100;
+}
+.last2 p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
